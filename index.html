@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A personal collection of practical browser tools, starting with an EMI and loan repayment calculator.">
+  <title>Personal Toolbox</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="tools.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="topbar"><a href="./index.html" class="brand"><span class="brand-icon" aria-hidden="true">▦</span> Personal Toolbox</a><span class="badge">Browser tools</span></header>
+  <main>
+    <div class="intro"><p class="eyebrow">YOUR EVERYDAY SHORTCUTS</p><h1>Useful tools, one place.</h1><p>Open a tool, get what you need, and get on with your day.</p></div>
+    <section class="catalog" aria-label="Your tools">
+      <div class="controls"><div class="search"><label for="search">Find a tool</label><input id="search" type="search" placeholder="Search tools…" autocomplete="off"></div><div class="filter"><label for="category">Category</label><select id="category"><option value="">All categories</option></select></div></div>
+      <p id="count" class="count" role="status" aria-live="polite"></p>
+      <div id="tools" class="tools"></div>
+      <p id="empty" class="empty" hidden>No tools match your search. Try another word or category.</p>
+      <noscript><p><a href="tools/loan-emi-calculator.html">Open the EMI & Prepayment Calculator</a>. Enable JavaScript to use the calculator.</p></noscript>
+    </section>
+    <footer>Tools run in your browser. Saved calculator plans stay on this device unless you export them.</footer>
+  </main>
+</body>
+</html>
