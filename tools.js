@@ -2,6 +2,14 @@
 // Keep each id unique and use relative paths so GitHub project URLs work.
 window.TOOLBOX_TOOLS = [
   {
+    id: "gold-loan",
+    title: "Gold Loan Estimator",
+    category: "Finance",
+    description: "Estimate eligible borrowing from gold weight and purity, then compare practical repayment methods and fees.",
+    href: "tools/gold-loan-calculator.html",
+    keywords: "gold loan pledge jewellery purity karat grams LTV collateral valuation EMI bullet overdraft bank SBI HDFC ICICI"
+  },
+  {
     id: "loan-emi",
     title: "EMI & Prepayment Calculator",
     category: "Finance",

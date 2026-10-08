@@ -54,6 +54,7 @@ Use simple filenames with letters, numbers, hyphens or underscores. This catalog
 - `app.js`: homepage search and category filtering.
 - `favicon.svg`: site icon.
 - `tools/loan-emi-calculator.html`: standalone loan calculator, including a link back to the homepage.
+- `tools/gold-loan-calculator.html`: gold collateral and repayment estimator. Enter current lender valuation, LTV, rate and charges; it does not use live bank quotes.
 
 ## Open offline
 
@@ -64,3 +65,5 @@ Keep the folder structure intact and open `index.html` in a browser. No server i
 The website and source code are public when hosted this way. The calculator does not send your entered loan details to a server. Optional saved plans are browser/device-local and do not sync between devices. Use the calculator's JSON export/import for backup or transfer. Do not upload personal plan exports into the public repository.
 
 The calculator estimates monthly reducing-balance loans, including zero interest, actual EMI overrides, monthly/annual extras, dated lump sums, rate changes and separate fees/taxes. Dated extras apply after the first EMI on or after their date. It does not model daily interest, missed payments, moratorium, staged disbursements or flat-rate loans. Loan categories are labels; enter your own lender's terms.
+
+The gold-loan estimator converts entered net gold weights and karat purities into an indicative value, applies a user-entered LTV cap, and estimates EMI, monthly-interest bullet, rear-ended bullet, front-ended interest bullet, or a simplified overdraft cash flow. Bank rates, appraised weight/value, fees, interest conventions and actual approval terms must be confirmed with the lender. It is not an official SBI, HDFC Bank or ICICI Bank quotation or eligibility decision.
