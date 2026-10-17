@@ -2,6 +2,14 @@
 // Keep each id unique and use relative paths so GitHub project URLs work.
 window.TOOLBOX_TOOLS = [
   {
+    id: "sip-calculator",
+    title: "SIP Investment Calculator",
+    category: "Finance",
+    description: "Project SIP growth with step-ups, inflation adjustment, goal planning, return scenarios, and a year-by-year breakdown.",
+    href: "tools/sip-calculator.html",
+    keywords: "mutual fund systematic investment plan monthly investment step up inflation real return goal corpus wealth equity"
+  },
+  {
     id: "gold-loan",
     title: "Gold Loan Estimator",
     category: "Finance",
